@@ -19,7 +19,7 @@ from sklearn.metrics import precision_score, recall_score, f1_score, mean_square
 
 random.seed(0)
 
-data = pd.read_csv("afbrs_transdf.csv")
+data = pd.read_csv("data/afbrs_transdf.csv")
 data = data.drop(columns=['X'])
 #data = data.melt(id_vars=['priority', 'expectation', 'region'], value_vars=['choice_one', 'choice_two', 'choice_three'])
 #print(data.head())
