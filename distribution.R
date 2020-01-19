@@ -1,7 +1,7 @@
 
 library(tidyverse)
 
-df <- read.csv("afbrs_transdf.csv") %>% 
+df <- read.csv("data/afbrs_transdf.csv") %>% 
              mutate(choice=as.character(choice))
 
 #Data Distribution
